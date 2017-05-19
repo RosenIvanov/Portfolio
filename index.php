@@ -111,7 +111,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="profile-picture-container"> <img data-original="images/profile.jpg" class="profile-picture" alt="profile-picture" /> </div>
+                    <div class="profile-picture-container"> <img src="images/lazy-load-hack.png" data-original="images/profile.jpg" class="profile-picture" alt="profile-picture" /> </div>
                 </div>
             </div>
             <div class="row">

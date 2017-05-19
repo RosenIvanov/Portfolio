@@ -119,10 +119,10 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <p class="foot-bot">
-                        <a class="footer-brand" href="https://rosen-ivanov.co.uk"><img src="images/lazy-load-hack.png" data-original="images/logo.png" class="img-responsive" alt="logo" style="margin: 0 auto;" /></a>
+                        <a class="footer-brand" href="index.php"><img src="images/lazy-load-hack.png" data-original="images/logo.png" class="img-responsive" alt="logo" style="margin: 0 auto;" /></a>
                     </p>
                     <div class="copyright">
-                        <p style="font-size: 14x;">© Copyright <a href="http://rosen-ivanov.co.uk">Rosen Ivanov</a> 2017. All Rights Reserved. </p>
+                        <p style="font-size: 14x;">© Copyright <a href="index.php">Rosen Ivanov</a> 2017. All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
