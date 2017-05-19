@@ -133,7 +133,7 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/jquery.lazyload.min.js"></script>
-    <script src="js/customjs.min.js"></script>
+    <script src="js/customjs.js"></script>
 </body>
 
 </html>
