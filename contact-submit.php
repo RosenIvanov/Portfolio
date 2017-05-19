@@ -5,7 +5,7 @@ $from = 'http://rosen-ivanov.co.uk';
 $sendTo = 'rosenplamenov93@gmail.com';
 $subject = 'New message from your contact form on rosen-ivanov.co.uk';
 $fields = array('name' => 'Customer Name - ', 'subject' => 'Subject - ', 'phone' => 'Phone - ', 'email' => 'Email - ', 'message' => 'Message - '); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Your message has been sent successfully. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
