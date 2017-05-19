@@ -549,8 +549,8 @@ a.list-group-item.active small {
 
 /* MOUSE SCROLL */
 
-#mouse-scroll {
-    style: block;
+.container-fluid #mouse-scroll {
+    top: 390px !important;
 }
 
 #mouse-scroll {
@@ -575,6 +575,15 @@ a.list-group-item.active small {
     margin: 0 0 3px 5px;
 }
 
+.container-fluid #mouse-scroll .mouse {
+    border: 2px solid #fff !important;
+}
+
+.container-fluid #mouse-scroll span {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
 #mouse-scroll .mouse {
     height: 21px;
     width: 14px;
@@ -594,7 +603,7 @@ a.list-group-item.active small {
 #mouse-scroll .down-arrow-2,
 #mouse-scroll .down-arrow-3 {
     -webkit-animation: mouse-scroll 1s infinite;
-    -moz-animation: mouse-scroll 1s infinite:
+    -moz-animation: mouse-scroll 1s infinite;
 }
 
 #mouse-croll .down-arrow-1 {
@@ -622,6 +631,10 @@ a.list-group-item.active small {
     margin: 5px auto;
     background: #000;
     position: relative;
+}
+
+.container-fluid #mouse-scroll .mouse-in {
+    background: #fff;
 }
 
 #mouse-scroll .mouse-in {

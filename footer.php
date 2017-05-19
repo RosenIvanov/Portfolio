@@ -1,87 +1,4 @@
-<!DOCTYPE html>
-<html id="standart" lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="copyright" content="Rosen Ivanov 2017">
-    <meta name="author" content="Rosen Ivanov">
-    <meta name="description" content="Convenient and easy to use users sitemap. Just because I am not offering search field, I decided to give you a sitemap, so you can find easly anything you need.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/fav-icon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
-    <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-    <!-- Some of the graphics on this website have been downloaded and modified from -> http://www.graphicsfuel.com/ <- check them out -->
-    <title>Sitemap | Rosen Ivanov - London, UK</title>
-</head>
-
-<body>
-    <header id="header">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="index.html">ROSENIVANOV</a> </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES <b class="caret"></b></a>
-                            <ul class="dropdown-menu animated fadeIn">
-                                <li><a href="web-design.html"><i class="fa fa-laptop" aria-hidden="true"></i> Web Design</a></li>
-                                <li><a href="cms-system.html"><i class="fa fa-wordpress" aria-hidden="true"></i> CMS System</a></li>
-                                <li><a href="content-writing.html"><i class="fa fa-line-chart" aria-hidden="true"></i> Content Writing</a></li>
-                                <li><a href="search-engine-optimization.html"><i class="fa fa-bar-chart" aria-hidden="true"></i> SEO</a></li>
-                                <li><a href="graphic-design.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Graphic Design</a></li>
-                                <li><a href="photography.html"><i class="fa fa-camera-retro" aria-hidden="true"></i> Photography</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
-                        <li><a href="http://blog.rosen-ivanov.com" target="_blank">BLOG</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                        <li class="animated social mobile-layout1"><a href="https://www.facebook.com/rosenivanov933" target="_blank"><i class="fa fa-facebook color-facebook"></i></a></li>
-                        <li class="animated social mobile-layout2"><a href="https://twitter.com/rosenplamenov93" target="_blank"><i class="fa fa-twitter color-twitter"></i></a></li>
-                        <li class="animated social mobile-layout3"><a href="https://www.linkedin.com/in/rosen-ivanov-b5b272116" target="_blank"><i class="fa fa-linkedin color-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-collapse -->
-        </nav>
-    </header>
-    <div class="container">
-    <div class="col-md-12 sitemap">
-        <h1 style="margin-top: 100px;">Users SiteMap</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Services</a>
-                <ul>
-                    <li><a href="web-design.html"><i class="fa fa-laptop" aria-hidden="true"></i> Web Design</a></li>
-                    <li><a href="cms-system.html"><i class="fa fa-wordpress" aria-hidden="true"></i> CMS System</a></li>
-                    <li><a href="content-writing.html"><i class="fa fa-line-chart" aria-hidden="true"></i> Content Writing</a></li>
-                    <li><a href="search-engine-optimization.html"><i class="fa fa-bar-chart" aria-hidden="true"></i> SEO</a></li>
-                    <li><a href="graphic-design.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Graphic Design</a></li>
-                    <li><a href="photography.html"><i class="fa fa-camera-retro" aria-hidden="true"></i> Photography</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="portfolio.html">Porfolio</a>
-            </li>
-            <li>
-                <a href="http://blog.rosen-ivanov.com" target="_blank">Blog</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- CONTACT FORM -->
+<!-- CONTACT FORM -->
     <div class="contact-form">
         <div class="container">
             <div class="row">
@@ -90,7 +7,7 @@
                 </div>
                 <div class="col-md-12">
                     <h6 class="lead text-center">Interested in building something amazing together? I would love to learn about your idea. Please, fill out the form below with some info about your project and I will get back to you as soon as I can.</h6>
-                    <form class="col-md-8" id="contact-form" method="post" action="contact.php">
+                    <form class="col-md-8" id="contact-form" method="post" action="contact-submit.php">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row">
@@ -151,11 +68,10 @@
                             <li class="social " style="display: inline-block"><a href="https://www.linkedin.com/in/rosen-ivanov-b5b272116" target="_blank"><i class="fa fa-linkedin color-linkedin"></i></a></li>
                             <li class="social " style="display: inline-block"><a href="https://github.com/RosenIvanov" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                             <li class="social " style="display: inline-block"><a href="https://plus.google.com/117838885696404527001" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        </ul> <img class="img-responsive" style="margin-top: 20px;" src="images/book-159880_640.png" alt="old-phone" width="325" /> </div>
+                        </ul> <img class="img-responsive" style="margin-top: 20px;" src="images/lazy-load-hack.png" data-original="images/book-159880_640.png" alt="old-phone" width="325" /> </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- END OF CONTACT FORM -->
     <!-- FOOTER -->
@@ -165,23 +81,23 @@
                 <div class="hidden-xs hidden-sm col-md-3">
                     <p class="footer-header">USEFUL LINKS</p>
                     <ul class="links">
-                        <li class="footer-style"><a href="index.html">Home</a></li>
-                        <li class="footer-style"><a href="about.html">About</a></li>
-                        <li class="footer-style"><a href="portfolio.html">Work</a></li>
+                        <li class="footer-style"><a href="index.php">Home</a></li>
+                        <li class="footer-style"><a href="about.php">About</a></li>
+                        <li class="footer-style"><a href="portfolio.php">Work</a></li>
                         <li class="footer-style"><a href="https://blog.rosen-ivanov.com">Blog</a></li>
-                        <li class="footer-style"><a href="contact.html">Contact</a></li>
-                        <li class="footer-style"><a href="#">Sitemap</a></li>
+                        <li class="footer-style"><a href="contact.php">Contact</a></li>
+                        <li class="footer-style"><a href="sitemap.php">Sitemap</a></li>
                     </ul>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-3">
                     <p class="footer-header">SERVICES</p>
                     <ul class="links">
-                        <li class="footer-style"><a href="web-design.html">Web Design &amp; Development</a></li>
-                        <li class="footer-style"><a href="cms-system.html">CMS System</a></li>
-                        <li class="footer-style"><a href="content-writing.html">Content Writing</a></li>
-                        <li class="footer-style"><a href="search-engine-optimization.html">Search Engine Optimization</a></li>
-                        <li class="footer-style"><a href="graphic-design.html">Graphic Design</a></li>
-                        <li class="footer-style"><a href="photography.html">Photography</a></li>
+                        <li class="footer-style"><a href="web-design.php">Web Design &amp; Development</a></li>
+                        <li class="footer-style"><a href="cms-system.php">CMS System</a></li>
+                        <li class="footer-style"><a href="content-writing.php">Content Writing</a></li>
+                        <li class="footer-style"><a href="search-engine-optimization.php">Search Engine Optimization</a></li>
+                        <li class="footer-style"><a href="graphic-design.php">Graphic Design</a></li>
+                        <li class="footer-style"><a href="photography.php">Photography</a></li>
                     </ul>
                 </div>
                 <div class="hidden-xs hidden-sm col-md-3">
@@ -202,20 +118,22 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <p class="foot-bot"><a class="footer-brand" href="https://rosen-ivanov.com">ROSEN&nbsp;<span class="ivanov"> IVANOV</span></a></p>
+                    <p class="foot-bot">
+                        <a class="footer-brand" href="https://rosen-ivanov.co.uk"><img src="images/lazy-load-hack.png" data-original="images/logo.png" class="img-responsive" alt="logo" style="margin: 0 auto;" /></a>
+                    </p>
                     <div class="copyright">
-                        <p>Designed and Developed in West London.</p>
-                        <p style="font-size: 14x;">© Copyright <a href="http://rosen-ivanov.com">Rosen Ivanov</a> 2017. All Rights Reserved. </p>
+                        <p style="font-size: 14x;">© Copyright <a href="http://rosen-ivanov.co.uk">Rosen Ivanov</a> 2017. All Rights Reserved. </p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- END OF FOOTER -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script src="js/validator.js"></script>
-    <script type="text/javascript" src="js/customjs.js"></script>
+    <script src="js/jquery-3.2.1.min.js" ></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/customjs.min.js"></script>
 </body>
 
 </html>
