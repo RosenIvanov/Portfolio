@@ -6,7 +6,7 @@
      <div class="portfolio-service" style="margin-top: 50px;">
         <div class="container">
             <div class="row">
-                <h1 class="ribbon" style="width: 500px;">SEARCH ENGINE OPTIMIZATION</h1> </div>
+                <h1 class="ribbon custom-ribbon" style="width: 500px;">SEARCH ENGINE OPTIMIZATION</h1> </div>
             <section id="description">
                 <div class="row text-center">
                     <img data-original="images/seo.jpg" src="images/lazy-load-hack.png" alt="seo" width="850" style="max-width: 100%; margin-bottom: 50px;" />
